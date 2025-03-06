@@ -6,7 +6,7 @@ It is intended for headless/remote use or when GUI-based actions are too repetit
 
 TOOL LISTING
 -----
-1. **rom_downloader.py** - This is a script that will scrape a single webpage and download all the .zip files listed on it.
+1. **rom_downloader.py** - This is a script that will scrape a single webpage and download all the .zip files listed on it. NOTE: Does not keep or provide any URLs, must be provided by the user.
     * Supports multithreading/simultaneous downloads. Tested up to 5 concurrent downloads myself, be wary of throttling by the hosting provider and your disk I/O.
     * Supports retry of failed downloads (3x) - after 3 times the failed filename will be written to failed_downloads.txt so you can deal with it later.
     * Supports region filtering - as long as the content host specifies the region in the filename.
