@@ -2,7 +2,7 @@ Retro Tools
 -----
 This is a set of custom scripts I developed to help manage ROMs and emulators on systems running Batocera, SBC handhelds with custom firmware, Recalbox, retropie, etc.
 
-It is intended for headless/remote use or whne GUI-based actions are too repetitive or cumbersome.
+It is intended for headless/remote use or when GUI-based actions are too repetitive or cumbersome.
 
 TOOL LISTING
 -----
