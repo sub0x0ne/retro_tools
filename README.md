@@ -10,6 +10,7 @@ TOOL LISTING
     * Supports multithreading/simultaneous downloads. Tested up to 5 concurrent downloads myself, be wary of throttling by the hosting provider and your disk I/O.
     * Supports retry of failed downloads (3x) - after 3 times the failed filename will be written to failed_downloads.txt so you can deal with it later.
     * Supports region filtering - as long as the content host specifies the region in the filename.
+    * Skips files you already have in destination folder
 
 
 2. zip_to_chd.py - Tool for extracting .zip archives of games containing CUE/BIN or ISO files and using chdman to compress them for emulator use
