@@ -18,3 +18,7 @@ TOOL LISTING
     * Supports custom path to CHDMAN binary
     * Prompts to delete original .zip files or not. Always cleans up extracted .cue/.bin/.iso files    
 
+
+Coming Soon
+-----
+ROMset manager - create and deploy your own _finely_ curated romsets
